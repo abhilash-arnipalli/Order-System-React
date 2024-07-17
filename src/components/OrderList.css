@@ -1,0 +1,52 @@
+﻿.order-list {
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 80%;  
+    margin: 0 auto 20px auto;  
+}
+
+.order-list h2 {
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.order-list p {
+    color: #777;
+}
+
+.order-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.order-list ul li {
+    background: white;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.order-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.order-list th, .order-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.order-list th {
+    background-color: #f2f2f2;
+}
+
+.order-list tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
